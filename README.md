@@ -43,7 +43,7 @@ In summary, `"autn"` and `"rand"` are required to generate the EAP-AKA Request m
     "rand": <base64_encoded_rand_bytes>,
     "res": <base64_encoded_res_bytes>,
     "autn": <base64_encoded_autn_bytes>,
-    "k_aut": <base64_encoded_ck_bytes>
+    "k_aut": <base64_encoded_k_aut_bytes>
 }
 ```
 
