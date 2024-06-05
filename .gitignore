@@ -17,3 +17,5 @@ pytest.ini
 *.json
 update_payload.json
 /.vscode/
+*.iml
+.python-version

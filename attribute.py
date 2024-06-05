@@ -132,13 +132,13 @@ class Attribute:
     def __str__(self) -> str:
         return (
             f"{self.__class__.__name__}(type={self._attribute_type.name}, "
-            f"code={self._attribute_code}, length={self.length}, value={self.value})"
+            f"code={self._attribute_code}, length={self.length}, value={self.value.hex()})"
         )
 
     def verbose_str(self) -> str:
         return (
             f"{self.__class__.__name__}(type={self._attribute_type.name}, "
-            f"code={self._attribute_code}, length={self.length}, value={self.value}, bytes={self.raw})"
+            f"code={self._attribute_code}, length={self.length}, value={self.value.hex()}, bytes={self.raw.hex()})"
         )
 
 
